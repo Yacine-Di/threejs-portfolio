@@ -102,7 +102,7 @@ const Contact = () => {
                                 required
                                 rows={5}
                                 className="field-input"
-                                placeholder="Hi i wanna give you are job..."
+                                placeholder="Hi i wanna give you a job..."
                             />
                         </label>
                         <button className="field-btn" type="submit" disabled={loading}>
