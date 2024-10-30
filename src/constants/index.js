@@ -55,9 +55,9 @@ export const clientReviews = [
 export const myProjects = [
     {
         title: 'Fisheye (Front-End) - Freelance Photographers Plateform',
-        desc: 'Fisheye is a website for freelance photographers. It helps users find freelance photographers for photography projects.',
+        desc: 'Fisheye is a platform for freelance photographers, offering them a space to showcase their work and allowing users to easily find skilled photographers for their photo projects.',
         subdesc:
-            "Developed in Vanilla JavaScript, Fisheye is accessible through ARIA attributes, including a modal for viewing photographers' shots.",
+            "Built with Vanilla JavaScript, Fisheye is fully accessible via ARIA attributes. It features a modal that lets users view photographers' work, ensuring an inclusive browsing experience.",
         href: 'https://github.com/Yacine-Di/Front-End-Fisheye.github.io',
         texture: '/textures/project/fisheye.mp4',
         logo: '/assets/fisheye-logo.png',
@@ -195,7 +195,7 @@ export const myProjects = [
         title: 'ArgentBank (Front-End) - Banking Application',
         desc: 'ArgentBank is a banking app that allows users to view their bank accounts with a secure connection. This is achieved through a JWT (JSON Web Token).',
         subdesc:
-            'Developed with React, Redux, and RTK Query for API calls to the REST API, ArgentBank features robust state management and API calls.',
+            'Developed using React, Redux, and RTK Query for REST API calls, ArgentBank offers robust state management and efficient API interactions for a seamless user experience.',
         href: 'https://github.com/Yacine-Di/ArgentBank-Front',
         texture: '/textures/project/argentbank.mp4',
         logo: '/assets/argentbank.svg',
@@ -268,29 +268,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: 'Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.',
-        icon: '/assets/framer.svg',
+        name: ' Notion',
+        pos: 'Degree Program',
+        duration: '2023 - 2024',
+        title: 'Notion helps me organize my projects. I use it for project management, task tracking, and as a documentation hub, making everything from design notes to progress updates easily accessible.',
+        icon: '/assets/notion.svg',
         animation: 'victory',
     },
     {
         id: 2,
         name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
+        pos: 'Degree Program',
+        duration: '2023 - 2024',
         title: 'Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.',
         icon: '/assets/figma.svg',
         animation: 'clapping',
     },
     {
         id: 3,
-        name: 'Notion',
+        name: '.NET',
         pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: 'Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.',
-        icon: '/assets/notion.svg',
+        duration: '2017 - 2019',
+        title: 'During two years of apprenticeship, I programmed in C# with the .NET framework, building skills in a typed language and solid documentation for maintainability.',
+        icon: '/assets/dot-net.svg',
         animation: 'salute',
     },
 ];
