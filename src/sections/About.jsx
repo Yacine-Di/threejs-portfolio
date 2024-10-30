@@ -26,8 +26,8 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I'm Yacine</p>
                             <p className="grid-subtext">
-                                I have 2 years of exeperience, but i love doing tutorials to get new
-                                skills to use and share them during my jobs.
+                                I have 2 years of exeperience, but i love doing personnal projects
+                                to get new skills to use and share them during my jobs.
                             </p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const About = () => {
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">
                                 I specialize in JavaScript with focus on React ecosystems. Working
-                                in progress in Tailwind and ThreeJs
+                                in progress in Tailwind and Three.js
                             </p>
                         </div>
                     </div>
