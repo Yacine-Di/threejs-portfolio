@@ -54,10 +54,10 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Fisheye (Front-End) - Site pour photographes indépendants',
-        desc: 'Fisheye est un site web pour photographes indepéndants. Il permet de trouver des photographes indépendants pour des projets de photographie.',
+        title: 'Fisheye (Front-End) - Freelance Photographers Plateform',
+        desc: 'Fisheye is a website for freelance photographers. It helps users find freelance photographers for photography projects.',
         subdesc:
-            'Vous avez un besoin de photos professionnelles pour un projet ? Vous avez un évènement et vous voulez le sauvegarder ? Fisheye est fait pour vous !',
+            "Developed in Vanilla JavaScript, Fisheye is accessible through ARIA attributes, including a modal for viewing photographers' shots.",
         href: 'https://github.com/Yacine-Di/Front-End-Fisheye.github.io',
         texture: '/textures/project/fisheye.mp4',
         logo: '/assets/fisheye-logo.png',
@@ -91,11 +91,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Les petits plats (Front-End) - Site de recettes culinaires',
-        desc: 'Les petits est un site permettant de trouver la prochaine recette que vous allez cuisiner. Avec ses options de recherche il est facile de trier les recettes disponibles en fonc de vos envies.',
+        title: 'Les Petits Plats (Front-End) - Culinary recipes website',
+        desc: "Les Petits Plats is a website that helps you find your next recipe to cook. With its search options, it's easy to sort available recipes based on your preferences.",
         subdesc:
-            "Avec les petits plats l'utilisateur fait l'expérience d'une recherche rapide avec le champ de principal qui permet de faire une recherche transversale dans le titre, la description et les ingrédients et la recette.",
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+            'Developed in Vanilla JavaScript, the search algorithm allows for quick access to updated recipe results, all based on the search field and tags.',
+        href: 'https://github.com/Yacine-Di/Les-petits-plats.github.io',
         texture: '/textures/project/petitsplats.mp4',
         logo: '/assets/petitsplats.svg',
         logoStyle: {
@@ -128,11 +128,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Kasa (Front-End) - Location de logements',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+        title: 'Kasa (Front-End) - Website for Housing Rental',
+        desc: 'Kasa is a website that allows property owners to rent out their accommodations. Whether you are traveling or on a business trip, Kasa will offer you the best options for private rentals.',
         subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+            'Developed with React, SCSS, and Figma mockups, it highlights the accommodations. Photos, descriptions, ratings—everything is provided to help you choose the right place for you.',
+        href: 'https://github.com/Yacine-Di/kasa',
         texture: '/textures/project/kasa.mp4',
         logo: '/assets/kasa.svg',
         logoStyle: {
@@ -160,11 +160,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'SportSee (Front-End) - Sport Analaytics',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+        title: 'SportSee (Front-End) - Sports Analaytics Dashboard',
+        desc: 'SportSee is an analytics dashboard that allows users to track their physical progress through multiple data points. Easy to use, the data is displayed on graphs.',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+            'Developed with React, CSS3, and Recharts as the charting library, the site presents informations in a structured manner. Data is retrieved via API calls using the fetch method.',
+        href: 'https://github.com/Yacine-Di/sportsee',
         texture: '/textures/project/sportsee.mp4',
         logo: '/assets/sportsee.svg',
         logoStyle: {
@@ -192,11 +192,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'ArgentBank (Front-End) - App Bancaire',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+        title: 'ArgentBank (Front-End) - Banking Application',
+        desc: 'ArgentBank is a banking app that allows users to view their bank accounts with a secure connection. This is achieved through a JWT (JSON Web Token).',
         subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+            'Developed with React, Redux, and RTK Query for API calls to the REST API, ArgentBank features robust state management and API calls.',
+        href: 'https://github.com/Yacine-Di/ArgentBank-Front',
         texture: '/textures/project/argentbank.mp4',
         logo: '/assets/argentbank.svg',
         logoStyle: {
