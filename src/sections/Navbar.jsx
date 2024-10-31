@@ -6,7 +6,7 @@ const NavItems = ({ onClick = () => {} }) => {
         <ul className="nav-ul">
             {navLinks.map(({ id, name, href }) => (
                 <li key={id} className="nav-li">
-                    <a href={href} onClick={onClick}>
+                    <a href={href} className="nav-li_a" onClick={onClick}>
                         {name}
                     </a>
                 </li>
@@ -27,14 +27,14 @@ const NavBar = () => {
                 <div className="flex justify-between items-center py-5 mx-auto c-space">
                     <a
                         href="/"
-                        className="text-neutral-400 font-bold text-xl hover:text-white transition-colors sm:hidden flex"
+                        className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
                         aria-label="Toggle menu"
                     >
                         Yacine
                     </a>
                     <button
                         onClick={toggleMenu}
-                        className="text-neutral-400 hower:text-white focus:outline-none"
+                        className="text-neutral-400 hower:text-white focus:outline-none sm:hidden flex"
                     >
                         <img
                             src={isOpen ? 'assets/close.svg' : 'assets/menu.svg'}
