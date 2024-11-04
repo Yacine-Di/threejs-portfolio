@@ -42,7 +42,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">
-                                I specialize in JavaScript with focus on React ecosystems. Working
+                                I am specialized in JavaScript with focus on React ecosystems. Work
                                 in progress in Tailwind and Three.js
                             </p>
                         </div>
