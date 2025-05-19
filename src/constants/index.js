@@ -24,10 +24,11 @@ export const navLinks = [
 export const myProjects = [
     {
         title: 'Fisheye (Front-End) - Freelance Photographers Plateform',
+        type: 'Live Site',
         desc: 'Fisheye is a platform for freelance photographers, offering them a space to showcase their work and allowing users to easily find skilled photographers for their photo projects.',
         subdesc:
             "Built with Vanilla JavaScript, Fisheye is fully accessible via ARIA attributes. It features a modal that lets users view photographers' work, ensuring an inclusive browsing experience.",
-        href: 'https://github.com/Yacine-Di/Front-End-Fisheye.github.io',
+        href: 'https://yacine-di.github.io/Front-End-Fisheye.github.io/index.html',
         texture: '/textures/project/fisheye.mp4',
         logo: '/assets/fisheye-logo.png',
         logoStyle: {
@@ -61,10 +62,11 @@ export const myProjects = [
     },
     {
         title: 'Les Petits Plats (Front-End) - Culinary recipes website',
+        type: 'Live Site',
         desc: "Les Petits Plats is a website that helps you find your next recipe to cook. With its search options, it's easy to sort available recipes based on your preferences.",
         subdesc:
             'Developed in Vanilla JavaScript, the search algorithm allows for quick access to updated recipe results, all based on the search field and tags.',
-        href: 'https://github.com/Yacine-Di/Les-petits-plats.github.io',
+        href: 'https://yacine-di.github.io/Les-petits-plats.github.io/',
         texture: '/textures/project/petitsplats.mp4',
         logo: '/assets/petitsplats.svg',
         logoStyle: {
@@ -98,6 +100,7 @@ export const myProjects = [
     },
     {
         title: 'Kasa (Front-End) - Website for Housing Rental',
+        type: 'Repo',
         desc: 'Kasa is a website that allows property owners to rent out their accommodations. Whether you are traveling or on a business trip, Kasa will offer you the best options for private rentals.',
         subdesc:
             'Developed with React, SCSS, and Figma mockups, it highlights the accommodations. Photos, descriptions, ratings—everything is provided to help you choose the right place for you.',
@@ -130,6 +133,7 @@ export const myProjects = [
     },
     {
         title: 'SportSee (Front-End) - Sports Analaytics Dashboard',
+        type: 'Repo',
         desc: 'SportSee is an analytics dashboard that allows users to track their physical progress through multiple data points. Easy to use, the data is displayed on graphs.',
         subdesc:
             'Developed with React, CSS3, and Recharts as the charting library, the site presents informations in a structured manner. Data is retrieved via API calls using the fetch method.',
@@ -162,6 +166,7 @@ export const myProjects = [
     },
     {
         title: 'ArgentBank (Front-End) - Banking Application',
+        type: 'Repo',
         desc: 'ArgentBank is a banking app that allows users to view their bank accounts with a secure connection. This is achieved through a JWT (JSON Web Token).',
         subdesc:
             'Developed using React, Redux, and RTK Query for REST API calls, ArgentBank offers robust state management and efficient API interactions for a seamless user experience.',
