@@ -4,9 +4,7 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 const Target = (props) => {
     const targetRef = useRef();
-    const { scene } = useGLTF(
-        'https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf'
-    );
+    const { scene } = useGLTF('/models/target.glb');
 
     useGSAP(() => {
         gsap.to(targetRef.current.position, {
@@ -18,8 +16,8 @@ const Target = (props) => {
     });
 
     return (
-        <mesh {...props} ref={targetRef} rotation={[0, Math.PI / 5, 0]} scale={1.5}>
-            <primitive object={scene} />
+        <mesh {...props} ref={targetRef} rotation={[0, -Math.PI / 5, 0]} scale={1.2}>
+            <primitive object={scene} position={[-1, 2, 0]} />
         </mesh>
     );
 };
